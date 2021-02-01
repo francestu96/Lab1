@@ -1,0 +1,37 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "simulator",
+            "type": "python",
+            "request": "launch",
+            "program": "queue_simulator.py",
+            "console": "integratedTerminal",
+            "args": ["--supermarket=True","--overload=True","--sjf=False"]
+        },
+        {
+            "name": "mm1e",
+            "type": "python",
+            "request": "launch",
+            "program": "mm1.py",
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "SJF",
+            "type": "python",
+            "request": "launch",
+            "program": "queue_SJF.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Analysis",
+            "type": "python",
+            "request": "launch",
+            "program": "real_data_analysis.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
