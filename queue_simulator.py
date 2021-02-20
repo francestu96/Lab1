@@ -5,7 +5,7 @@ import sys, getopt
 import math
 import utils
 
-MAXT = 100000
+MAXT = 1000000
 LAMBDA_VALUES = [0.5, 0.7, 0.9, 0.95, 0.99]
 SERVER_NO = [1, 2, 5, 10]
 QUEUE_LENGTH = range(0, 15)
